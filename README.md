@@ -37,19 +37,31 @@ The following lists provide field definitions for the meteorological, core indic
 
 # JER2015.zip – JER2021.zip
 
-•	TIMESTAMP - Month/Day/Year (MM/DD/YYYY)and time (HH:MM) of observation.
-•	Event - Date (YYYYMMDD) on whcih dust event was measured.
-•	Site - Name of study site at which data were collected.
-•	Rain_mm_Tot - Total rainfall collected in 1 min logging period (mm).
-•	T107_2M_Avg - Air temperature (C) measured at 2 m above ground level.
-•	T107_5M_Avg - Air temperature (C) measured at 5 m above ground level.
-•	WS_ms_4.8m_Max - Maximum wind speed sampled at 4.8 m above ground level within 1 min logging interval.
-•	WindDir_D1_WVT - Wind direction (vector) for 1 min loggin interval.
-•	WS_ms_4.8m_Avg - Average wind speed at 4.8 m above ground level within 1 min logging interval.
-•	WS_ms_2.4m_Avg - Average wind speed at 2.4 m above ground level within 1 min logging interval.
-•	WS_ms_1.4m_Avg - Average wind speed at 1.4 m above ground level within 1 min logging interval.
-•	WS_ms_0.7m_Avg - Average wind speed at 0.7 m above ground level within 1 min logging interval.
-•	WS_ms_2.4m_Std - Standard deviation of wind speed at 4.8 m above ground level within 1 min logging interval.
+•	TIMESTAMP - Month/Day/Year (MM/DD/YYYY) and time (HH:MM) of observation.
+•	RECORD - Unique record number for each data point.
+•	Switch - Switch 12V status (boolean) for triggering a collection.
+•	AvgTemp_10M_DegC - Average temperature (Deg C) at 10 meters from base of tower.
+•	AvgTemp_4M_DegC - Average temperature (Deg C) at 4 meters from base of tower.
+•	AvgTemp_2M_DegC - Average temperature (Deg C) at 2 meters from base of tower.
+•	AvgRH_4m_perc - Average relative humidity (percentage) at 4 meters from base of tower.
+•	Total_Rain_mm - Total rain (milimeters) at 1.5 meters above ground.
+•	WindDir_deg - Wind direction (degrees) at 10 meters from base of tower.
+•	MaxWS6_10M_m_s - Maximum wind speed (meters/second) at 10 meters from base of tower.
+•	MaxWS5_5M_m_s - Maximum wind speed (meters/second) at 5 meters from base of tower.
+•	MaxWS4_2.5M_m_s - Maximum wind speed (meters/second) at 2.5 meters from base of tower.
+•	MaxWS3_1.5M_m_s - Maximum wind speed (meters/second) at 1.5 meters from base of tower.
+•	MaxWS2_1M_m_s - Maximum wind speed (meters/second) at 1 meter from base of tower.
+•	MaxWS1_0.5M_m_s - Maximum wind speed (meters/second) at 0.5 meter from base of tower.
+•	StdDevWS2_1M_m_s - Wind speed (meters/second) standard deviation at 1 meter from base of tower.
+•	AvgWS6_10M_m_s - Average wind speed (meters/second) at 10 meters from base of tower.
+•	AvgWS5_5M_m_s - Average wind speed (meters/second) at 5 meters from base of tower.
+•	AvgWS4_2.5M_m_s - Average wind speed (meters/second) at 2.5 meters from base of tower.
+•	AvgWS3_1.5M_m_s - Average wind speed (meters/second) at 1.5 meters from base of tower.
+•	AvgWS2_1M_m_s - Average wind speed (meters/second) at 1 meter from base of tower.
+•	AvgWS1_0.5M_m_s - Average wind speed (meters/second) at 0.5 meter from base of tower.
+•	Sensit_Tot - Total number of particle counts within a logging interval (1 min) 5 cm above soil surface.
+•	SenSec - Number of seconds within a logging interval (1 min) that particles were counted.
+
 
 # JER_CoreIndicators_2015_2021.csv
 
