@@ -38,77 +38,142 @@ The following lists provide field definitions for the meteorological, core indic
 # JER2015.zip – JER2021.zip
 
 •	TIMESTAMP - Month/Day/Year (MM/DD/YYYY) and time (HH:MM) of observation.
-•	RECORD - Unique record number for each data point.
-•	Switch - Switch 12V status (boolean) for triggering a collection.
-•	AvgTemp_10M_DegC - Average temperature (Deg C) at 10 meters from base of tower.
-•	AvgTemp_4M_DegC - Average temperature (Deg C) at 4 meters from base of tower.
-•	AvgTemp_2M_DegC - Average temperature (Deg C) at 2 meters from base of tower.
-•	AvgRH_4m_perc - Average relative humidity (percentage) at 4 meters from base of tower.
-•	Total_Rain_mm - Total rain (milimeters) at 1.5 meters above ground.
-•	WindDir_deg - Wind direction (degrees) at 10 meters from base of tower.
-•	MaxWS6_10M_m_s - Maximum wind speed (meters/second) at 10 meters from base of tower.
-•	MaxWS5_5M_m_s - Maximum wind speed (meters/second) at 5 meters from base of tower.
-•	MaxWS4_2.5M_m_s - Maximum wind speed (meters/second) at 2.5 meters from base of tower.
-•	MaxWS3_1.5M_m_s - Maximum wind speed (meters/second) at 1.5 meters from base of tower.
-•	MaxWS2_1M_m_s - Maximum wind speed (meters/second) at 1 meter from base of tower.
-•	MaxWS1_0.5M_m_s - Maximum wind speed (meters/second) at 0.5 meter from base of tower.
-•	StdDevWS2_1M_m_s - Wind speed (meters/second) standard deviation at 1 meter from base of tower.
-•	AvgWS6_10M_m_s - Average wind speed (meters/second) at 10 meters from base of tower.
-•	AvgWS5_5M_m_s - Average wind speed (meters/second) at 5 meters from base of tower.
-•	AvgWS4_2.5M_m_s - Average wind speed (meters/second) at 2.5 meters from base of tower.
-•	AvgWS3_1.5M_m_s - Average wind speed (meters/second) at 1.5 meters from base of tower.
-•	AvgWS2_1M_m_s - Average wind speed (meters/second) at 1 meter from base of tower.
-•	AvgWS1_0.5M_m_s - Average wind speed (meters/second) at 0.5 meter from base of tower.
-•	Sensit_Tot - Total number of particle counts within a logging interval (1 min) 5 cm above soil surface.
-•	SenSec - Number of seconds within a logging interval (1 min) that particles were counted.
 
+•	RECORD - Unique record number for each data point.
+
+•	Switch - Switch 12V status (boolean) for triggering a collection.
+
+•	AvgTemp_10M_DegC - Average temperature (Deg C) at 10 meters from base of tower.
+
+•	AvgTemp_4M_DegC - Average temperature (Deg C) at 4 meters from base of tower.
+
+•	AvgTemp_2M_DegC - Average temperature (Deg C) at 2 meters from base of tower.
+
+•	AvgRH_4m_perc - Average relative humidity (percentage) at 4 meters from base of tower.
+
+•	Total_Rain_mm - Total rain (milimeters) at 1.5 meters above ground.
+
+•	WindDir_deg - Wind direction (degrees) at 10 meters from base of tower.
+
+•	MaxWS6_10M_m_s - Maximum wind speed (meters/second) at 10 meters from base of tower.
+
+•	MaxWS5_5M_m_s - Maximum wind speed (meters/second) at 5 meters from base of tower.
+
+•	MaxWS4_2.5M_m_s - Maximum wind speed (meters/second) at 2.5 meters from base of tower.
+
+•	MaxWS3_1.5M_m_s - Maximum wind speed (meters/second) at 1.5 meters from base of tower.
+
+•	MaxWS2_1M_m_s - Maximum wind speed (meters/second) at 1 meter from base of tower.
+
+•	MaxWS1_0.5M_m_s - Maximum wind speed (meters/second) at 0.5 meter from base of tower.
+
+•	StdDevWS2_1M_m_s - Wind speed (meters/second) standard deviation at 1 meter from base of tower.
+
+•	AvgWS6_10M_m_s - Average wind speed (meters/second) at 10 meters from base of tower.
+
+•	AvgWS5_5M_m_s - Average wind speed (meters/second) at 5 meters from base of tower.
+
+•	AvgWS4_2.5M_m_s - Average wind speed (meters/second) at 2.5 meters from base of tower.
+
+•	AvgWS3_1.5M_m_s - Average wind speed (meters/second) at 1.5 meters from base of tower.
+
+•	AvgWS2_1M_m_s - Average wind speed (meters/second) at 1 meter from base of tower.
+
+•	AvgWS1_0.5M_m_s - Average wind speed (meters/second) at 0.5 meter from base of tower.
+
+•	Sensit_Tot - Total number of particle counts within a logging interval (1 min) 5 cm above soil surface.
+
+•	SenSec - Number of seconds within a logging interval (1 min) that particles were counted.
 
 # JER_CoreIndicators_2015_2021.csv
 
 •	EstablishDate	- The date the plot was established.
+
 •	Datum	Zone – The datum of the plot location longitude and latitude.
+
 •	Longitude_NAD83 - The longitude of the plot location in the NAD83 Datum.
+
 •	Latitude_NAD83 - The latitude of the plot location in the NAD83 Datum.
+
 •	PrimaryKey - Unique identifier for each plot-visit.
+
 •	ProjectKey - Unique identifier for the study stie or plot.
+
 •	AH_AnnForbCover - The cover of forbs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_AnnForbGrassCover - The cover of annual forbs and grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_AnnGrassCover - The cover of annual grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_ForbCover	 - The cover of forbs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_ForbGrassCover - The cover of forbs and grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_GrassCover - The cover of grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_HerbLitterCover - The cover of herbaceous plants and litter in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenForbCover - The cover of perennial forbs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenForbGrassCover - The cover of perennial forbs and grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenGrassCover	- The cover of perennial grasses in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenShrubCover	- The cover of perennial shrubs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenSubShrubCover - The cover of perennial sub-shrubs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenSucculentCover - The cover of perennial succulents in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_PerenWoodyCover - The cover of perennial woody plants in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_ShrubCover - The cover of shrubs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_SubShrubCover - The cover of sub-shrubs in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_SucculentCover - The cover of succulents in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_TotalLitterCover - The cover of litter in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_WoodyCover - The cover of woody plants in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	AH_WoodyLitterCover - The cover of woody litter in the plot. This indicator is derived from the Line Point Intercept method.
+
 •	BareSoilCover	- The basal cover of soil in the plot, not including soil that has cover above it. This indicator is derived from the Line Point Intercept method.
+
 •	TotalFoliarCover - The foliar cover of plants in the plot. This indicator is derived from the Line Point Intercept method.
-•	GapCover_25_50 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 25-50 cm in size. This indicator is measured using the Gap Intercept method (commonly three transects per plot).
-•	GapCover_51_100 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 51-100 cm in size. This indicator is measured using the Gap Intercept method (commonly three transects per plot).
-•	GapCover_101_200 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 101-200 cm in size. This indicator is measured using the Gap Intercept method (commonly three transects per plot).
-•	GapCover_200_plus - The percentage of the plot's soil surface covered by gaps between plant canopies that are greater than 200 cm in size. This indicator is measured using the Gap Intercept method (commonly three transects per plot).
-•	GapCover_25_plus - The percentage of the plot's soil surface covered by gaps between plant canopies that are greater than 25 cm in size. This indicator is measured using the Gap Intercept method (commonly three transects per plot).
+
+•	GapCover_25_50 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 25-50 cm in size. This indicator is measured using the Gap 
+Intercept method (commonly three transects per plot).
+
+•	GapCover_51_100 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 51-100 cm in size. This indicator is measured using the 
+Gap Intercept method (commonly three transects per plot).
+
+•	GapCover_101_200 - The percentage of the plot's soil surface covered by gaps between plant canopies that are from 101-200 cm in size. This indicator is measured using the 
+Gap Intercept method (commonly three transects per plot).
+
+•	GapCover_200_plus - The percentage of the plot's soil surface covered by gaps between plant canopies that are greater than 200 cm in size. This indicator is measured 
+using the Gap Intercept method (commonly three transects per plot).
+
+•	GapCover_25_plus - The percentage of the plot's soil surface covered by gaps between plant canopies that are greater than 25 cm in size. This indicator is measured using 
+the Gap Intercept method (commonly three transects per plot).
+
 •	Mean_Max_Hgt - The average height (cm) on the macroplot of the tallest plant part measured at each height pin drop interval. If both woody and herbaceous heights are measured, the tallest measurement is considered. Calculated from data collected using the height method.
 
 
 # JER_HorizontalFlux_2015_2021.csv
 
 •	Site - Study site name; JER = Jornada Experimental Range.
+
 •	Sampler - Identification of MWAC mast (stack) location within plot; including MWAC masts 1, 2 and 3 in each Cell.
+
 •	Cell – Grid cell location within the NWERN site, including cells A, B, C, D, E, F, G, H, I.
+
 •	Date – Sediment sample collection date (DD-Mon-YY).
+
 •	LN_Flux – Natural log of the vertically-integrated horizontal sediment mass flux (units g/m/d).
-•	Flux - vertically-integrated horizontal sediment mass flux (units g/m/d).
+
+•	Flux - Vertically-integrated horizontal sediment mass flux (units g/m/d).
 
 
 # References
