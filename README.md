@@ -69,25 +69,13 @@ The following lists provide field definitions for the meteorological, core indic
 
 # JER_HorizontalFlux_2015_2021.csv
 
-•	Site - Study site name (general locality).
-•	Monitoring Plot - Identification of plot at which data were collected.
-•	Stack Location - Identification of MWAC mast (stack) location within plot.
-•	MWAC Height (opt) - Height (cm) above ground level at which inlet of MWAC sampler can was installed.
-•	MWAC Location - Descriptor of where on the MWAC mast a sampler (can) was installed.
-•	Box Type (Rotating or Static) - Differentiates whether the MWAC mast could freely rotate into the wind or if the mast was fixed to sample from a set azimuth.
-•	MWAC Internal Diameter - Internal diameter of MWAC sampler inlet (inches).
-•	Inlet Area (cm2) - Area of MWAC sampler inlet (cm2).
-•	Processing method (Wet/Dry) - Identification of whether a dry (sample tapped out of MWAC can into weigh boat) or wet (sample rinsed out of MWAC can into pre-weighed beaker then oven dried) sediment retrieval method was used.
-•	Drying Oven temp (c) - Temperature of oven at which samples were dried prior to weighing.
-•	Date Collected - Day, month and year on which the samples were collected in the field.
-•	No. days exposure - Number of days for which the MWAC samplers were in the field collecting sediment.
-•	Can No. - Identification number assigned to MWAC sampler can.
-•	Empty Boat wt. (g) - Weight of weigh boat (grams) without sediment sample (i.e., prior to weighing sample).
-•	Boat + sed. Oven dry wt. (g) - Weight of weight boat containing sediment sample (grams).
-•	Bulk Soil Sediment wt. (g) - Sediment sample weight (grams).
-•	Sediment archived (y/n) - Record of whether the physical sediment sample was stored or discarded.
-•	Collection Notes - Notes describing sample pertinent to data quality and interpretation.
-•	Sample Discarded (any non-blank means) - Record of whether the physical sediment sample was discarded.
+•	Site - Study site name; JER = Jornada Experimental Range.
+•	Sampler - Identification of MWAC mast (stack) location within plot; including MWAC masts 1, 2 and 3 in each Cell.
+•	Cell – Grid cell location within the NWERN site, including cells A, B, C, D, E, F, G, H, I.
+•	Date – Sediment sample collection date (DD-Mon-YY).
+•	LN_Flux – Natural log of the vertically-integrated horizontal sediment mass flux (units g/m/d).
+•	Flux - vertically-integrated horizontal sediment mass flux (units g/m/d).
+
 
 # References
 
